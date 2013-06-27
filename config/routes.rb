@@ -10,7 +10,7 @@ GemTest::Application.routes.draw do
    get 'coverage/all' => 'coverage#all', as: :coverage_all
 
    get 'payment/status' => 'payment#status', as: :payment_status
-   get 'payment/status/get' => 'payment#status_get', as: :payment_status_get
+   post 'payment/status/get' => 'payment#status_get', as: :payment_status_get
 
    get 'enrollment/post' => 'enrollment#post', as: :enrollment_post
    post 'enrollment/post/result' => 'enrollment#post_result', as: :enrollment_post_result

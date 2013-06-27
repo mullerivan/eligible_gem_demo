@@ -1,10 +1,7 @@
 <h1>Retrieve Payment status </h1>
 
+<%= simple_form_for @payment, url: payment_status_get_url do |f| %>
+    <%= f.input :payment_request_id %>
 
-
-<%= form_tag(payment_status_get_url, method: 'get') do %>
-
-    <%= label_tag('payment request id') %>
-    <%= text_field_tag(:q) %>
-    <%= submit_tag('Retrieve') %>
+    <%= f.button :submit %>
 <% end %>
