@@ -1,16 +1,17 @@
-<%= form_tag(demographic_get_url, method: 'get', class: 'form',) do %>
-    <fieldset>
-      payer_name:            <%= text_field_tag(:payer_name, 'Aetna') %><br>
-      payer_id:              <%= text_field_tag(:payer_id, '000001') %><br>
-      provider_last_name:    <%= text_field_tag(:provider_last_name, 'Last') %><br>
-      provider_first_name:   <%= text_field_tag(:provider_first_name, 'First') %><br>
-      provider_npi:          <%= text_field_tag(:provider_npi, '12345678') %><br>
-      member_id:             <%= text_field_tag(:member_id, '12345678') %><br>
-      member_last_name:      <%= text_field_tag(:member_last_name, 'Austen') %><br>
-      member_first_name:     <%= text_field_tag(:member_first_name, 'Jane') %><br>
-      member_dob:            <%= text_field_tag(:member_dob, '1955-12-14') %><br>
-      member_gender:         <%= text_field_tag(:member_gender, 'male') %><br>
-      internal_id:           <%= text_field_tag(:internal_id, '19551214') %>
-    </fieldset>
-    <%= submit_tag('Get!') %>
+<h1> Retrieve Demographic object and query it</h1>
+<%= simple_form_for @demographic, url: demographic_get_url do |f| %>
+    <%= f.input :payer_name %>
+    <%= f.input :payer_id %>
+    <%= f.input :provider_last_name %>
+    <%= f.input :provider_first_name %>
+    <%= f.input :provider_npi %>
+    <%= f.input :member_id %>
+    <%= f.input :member_last_name %>
+    <%= f.input :member_first_name %>
+    <%= f.input :member_dob %>
+    <%= f.input :member_gender %>
+    <%= f.input :internal_id %>
+    <%= f.button :submit %>
 <% end %>
+
+

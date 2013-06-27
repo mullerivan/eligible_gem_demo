@@ -1,6 +1,8 @@
-<%= form_tag(enrollment_retrieve_get_url, method: 'get') do %>
+<h1>Retrieve Enrollment object</h1>
 
-    <%= label_tag('enrollment request id') %>
-    <%= text_field_tag(:q) %>
-    <%= submit_tag('Retrieve') %>
+<%= simple_form_for @enrollment, url: enrollment_retrieve_get_url do |f| %>
+    <%= f.input :enrollment_request_id %>
+
+    <%= f.button :submit %>
 <% end %>
+

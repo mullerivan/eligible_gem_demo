@@ -5,7 +5,7 @@ GemTest::Application.routes.draw do
   # You can have the root of your site routed with "root"
    root 'demographic#form'
    get 'demographic' => 'demographic#form', as: :demographic_form
-   get 'demographic/get' => 'demographic#get', as: :demographic_get
+   post 'demographic/get' => 'demographic#get', as: :demographic_get
 
    get 'coverage/all' => 'coverage#all', as: :coverage_all
 
@@ -15,7 +15,7 @@ GemTest::Application.routes.draw do
    get 'enrollment/post' => 'enrollment#post', as: :enrollment_post
    post 'enrollment/post/result' => 'enrollment#post_result', as: :enrollment_post_result
    get 'enrollment/retrieve' => 'enrollment#retrieve', as: :enrollment_retrieve
-   get 'enrollment/retrieve_get' => 'enrollment#retrieve_get', as: :enrollment_retrieve_get
+   post 'enrollment/retrieve_get' => 'enrollment#retrieve_get', as: :enrollment_retrieve_get
 
    get 'claim/post' => 'claim#post', as: :claim_post
    post 'claim/post/result' => 'claim#post_result', as: :claim_post_result
