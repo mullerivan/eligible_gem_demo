@@ -1,0 +1,10 @@
+<h1>Retrieve Payment status </h1>
+
+
+
+<%= form_tag(payment_status_get_url, method: 'get') do %>
+
+    <%= label_tag('payment request id') %>
+    <%= text_field_tag(:q) %>
+    <%= submit_tag('Retrieve') %>
+<% end %>

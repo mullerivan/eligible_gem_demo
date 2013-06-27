@@ -22,6 +22,8 @@ GemTest::Application.routes.draw do
    get 'claim/retrieve' => 'claim#retrieve', as: :claim_retrieve
    get 'claim/retrieve_get' => 'claim#retrieve_get', as: :claim_retrieve_get
 
+   get 'x12/post' => 'x12#form', as: :x12_form
+   post 'x12/post/result' => 'x12#post_result', as: :x12_post_result
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

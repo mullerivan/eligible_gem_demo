@@ -1,6 +1,6 @@
 class ClaimController < ApplicationController
 
-#  Retrieve individual Claim object/acknowledgment
+
   def form
 
   end
