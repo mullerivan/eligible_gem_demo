@@ -8,10 +8,17 @@ GemTest::Application.routes.draw do
    get 'demographic/get' => 'demographic#get', as: :demographic_get
 
    get 'coverage/all' => 'coverage#all', as: :coverage_all
+
+
    get 'enrollment/post' => 'enrollment#post', as: :enrollment_post
    post 'enrollment/post/result' => 'enrollment#post_result', as: :enrollment_post_result
    get 'enrollment/retrieve' => 'enrollment#retrieve', as: :enrollment_retrieve
    post 'enrollment/retrieve_post' => 'enrollment#retrieve_post', as: :enrollment_retrieve_post
+
+   get 'claim/post' => 'claim#post', as: :claim_post
+   post 'claim/post/result' => 'claim#post_result', as: :claim_post_result
+   get 'claim/retrieve' => 'claim#retrieve', as: :claim_retrieve
+   post 'claim/retrieve_post' => 'claim#retrieve_post', as: :claim_retrieve_post
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
