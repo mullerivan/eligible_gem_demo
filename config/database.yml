@@ -1,0 +1,24 @@
+development:
+  adapter: mysql2
+  host: localhost
+  database: gem_test
+  pool: 20
+  username: root
+  password: im
+
+test:
+  adapter: mysql2
+  host: localhost
+  database: gem_test_test
+  pool: 20
+  username: root
+  password: im
+
+production:
+  adapter: mysql2
+  host: localhost
+  database: gem_test
+  pool: 20
+  username: root
+  password: im
+

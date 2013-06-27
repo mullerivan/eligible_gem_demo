@@ -1,0 +1,21 @@
+<%= form_tag(enrollment_post_result_url, method: 'post') do %>
+
+    service_provider_list:     <%= label_tag('service_provider_list') %>
+    payer_ids:                 <%= label_tag('payer_ids') %>
+    facility_name:             <%= label_tag('facility_name') %>
+    provider_name:             <%= label_tag('provider_name') %>
+    NPI:                       <%= label_tag('NPI') %>
+    tax_id:                    <%= label_tag('tax_id') %>
+    address:                   <%= label_tag('address') %>
+    PTAN:                      <%= label_tag('PTAN') %>
+
+
+    <%= submit_tag('POST') %>
+
+
+
+
+
+
+
+<% end %>

@@ -1,0 +1,42 @@
+<% active =true %>
+<h1>Retrieve Enrollment object</h1>
+<hr>
+<div class="tabbable tabs-left">
+  <ul class="nav nav-tabs">
+  <% @enrollment.enrollment_npis.each do |value| %>
+        <li class="<%= active ? 'active' : '' %>">
+          <a href="#<%= value[:enrollment_insurance_company][:payer_id] %>" data-toggle="tab"><%= value[:enrollment_insurance_company][:name] %></a>
+        </li>
+        <% active = false %>
+  <% end %>
+  </ul>
+  <div class="tab-content">
+    <% active = true %>
+    <% @enrollment.enrollment_npis.each do |value| %>
+        <div class="tab-pane <%= active ? 'active' : '' %>" id="<%= value[:enrollment_insurance_company][:payer_id] %>">
+          <% active = false %>
+          <% value.keys.each do |key| %>
+              <% if key == :status %>
+                  <h4><%= "#{key}: #{value[key]}" %> </h4><br>
+              <% elsif key == :enrollment_insurance_company %>
+                  <div class="well">
+                    <% value[key].keys.each do |enrollment_insurance_company_key| %>
+                        <% enrollment_insurance_companys = value[key] %>
+                        <%= "#{enrollment_insurance_company_key}: #{enrollment_insurance_companys[enrollment_insurance_company_key]}" %>
+                        <br>
+                    <% end %>
+                  </div>
+              <% else %>
+                  <%= "#{key}: #{value[key]}" %>
+                  <br>
+              <% end %>
+          <% end %>
+          <hr>
+        </div>
+        <!--/tab-pane-->
+    <% end %>
+  </div>
+  <!--/tab-content-->
+</div> <!-- /tabbable -->
+
+
