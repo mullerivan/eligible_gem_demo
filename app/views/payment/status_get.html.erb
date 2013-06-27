@@ -1,1 +1,34 @@
-<%=  raise @payment.to_yaml %>
+<% @payment[:statuses].each do |status| %>
+    <div>
+    <div class="tabbable tabs-left">
+      <ul class="nav nav-tabs">
+        <% active = true %>
+        <% status.keys.each do |key| %>
+            <li class="<%= active %>"><a href="#<%= key %>" data-toggle="tab"><%= key %></a></li>
+            <% active = false %>
+        <% end %>
+      </ul>
+
+      <div class="tab-content">
+        <% active = true %>
+        <% status.each do |key, values| %>
+            <div class="tab-pane  <%= active %>" id="<%= key %>">
+              <% active = false %>
+              <% values.each do |k, value| %>
+                  <% if k == :codes %>
+                      <div class="well">
+                      <% value.each do |c,v| %>
+                          <%= "#{c}:  #{v}" %> <br>
+                      <% end %>
+                      </div>
+                  <% else %>
+                      <%= "#{k}:  #{value}" %> <br>
+                  <% end %>
+              <% end %>
+            </div>
+        <% end %>
+      </div>
+    </div>
+</div>
+                  <hr>
+<% end %>
