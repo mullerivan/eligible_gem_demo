@@ -1,0 +1,6 @@
+<%= form_tag(claim_retrieve_get_url, method: 'get') do %>
+
+    <%= label_tag('claim request id') %>
+    <%= text_field_tag(:q) %>
+    <%= submit_tag('Retrieve') %>
+<% end %>

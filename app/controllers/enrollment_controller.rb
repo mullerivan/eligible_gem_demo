@@ -8,7 +8,7 @@ class EnrollmentController < ApplicationController
   def retrieve
 
     end
-  def retrieve_post
+  def retrieve_get
     strong_params = params.require(:q)
 
     params = { 'enrollment_request_id' => strong_params }
