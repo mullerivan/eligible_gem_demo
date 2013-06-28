@@ -1,0 +1,63 @@
+<% autoincrement = 1 %>
+<% @claim.acknowledgements.each do |acknowledgement| %>
+    <div class="tabbable tabs-left">
+      <ul class="nav nav-tabs">
+        <% active = 'active' %>
+        <% acknowledgement.keys.each do |key| %>
+            <li class="<%= active %>"><a href="#<%= "#{key}_#{autoincrement}" %>" data-toggle="tab"><%= key %></a></li>
+            <% active = '' %>
+        <% end %>
+      </ul>
+
+      <div class="tab-content">
+        <% active = 'active' %>
+        <% acknowledgement.each do |key, value| %>
+            <div class="tab-pane <%= active %>" id="<%= "#{key}_#{autoincrement}" %>">
+              <% active = '' %>
+              <% if key == :codes %>
+                  <% value.each do |key ,val| %>
+
+                      <p> <%= "#{key}:  #{val.empty? ? 'empty': val }" %></p>
+                  <% end %>
+              <% else %>
+                  <p><%= value %></p>
+              <% end %>
+
+            </div>
+        <% end %>
+      </div>
+      <% autoincrement += 1 %>
+    </div>
+    <hr>
+<% end %>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="tabbable tabs-left">
+
+  <div class="tab-content">
+    <div class="tab-pane active" id="lA">
+      <p>I'm in Section A.</p>
+    </div>
+  </div>
+</div>
+
+

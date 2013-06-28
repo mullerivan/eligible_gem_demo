@@ -10,14 +10,11 @@ class ClaimController < ApplicationController
   end
 
   def retrieve
-
+    @claim = Claim.new
   end
 
   def retrieve_get
-    strong_params = params.require(:q)
-
-    params = {'reference_id ' => strong_params}
-
-    @claim = Eligible::Claim.get(params)
+    strong_params = params.require(:claim).permit(:reference_id)
+    @claim = Eligible::Claim.get(strong_params)
   end
 end
