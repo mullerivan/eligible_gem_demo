@@ -1,19 +1,20 @@
+<% autoincrement= 0 %>
 <% @payment[:statuses].each do |status| %>
-
+   <div class="stat">
     <div class="tabbable tabs-left">
       <ul class="nav nav-tabs">
-        <% active = true %>
+        <% active = 'active' %>
         <% status.keys.each do |key| %>
-            <li class="<%= active %>"><a href="#<%= key %>" data-toggle="tab"><%= key %></a></li>
-            <% active = false %>
+            <li class="<%= active %>"><a href="#<%= "#{key}_#{autoincrement}" %>" data-toggle="tab"><%= key %></a></li>
+            <% active = '' %>
         <% end %>
       </ul>
 
-      <div class="tab-content id <%=  %>">
-        <% active = true %>
+      <div class="tab-content "id="<%=  %>">
+        <% active = 'active' %>
         <% status.each do |key, values| %>
-            <div class="tab-pane  <%= active %>" id="<%= key %>">
-              <% active = false %>
+            <div class="tab-pane  <%= active %>" id="<%= "#{key}_#{autoincrement}" %>">
+              <% active = '' %>
               <% values.each do |k, value| %>
                   <% if k == :codes %>
                       <div class="well">
@@ -29,6 +30,7 @@
         <% end %>
       </div>
     </div>
-
+   </div>
                   <hr>
+    <% autoincrement+= 1 %>
 <% end %>

@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0d065f4-47a3-4426-b2ca-163402ea8143" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/x12.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/claim_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/claim_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/demographic_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/demographic_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/enrollment_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/enrollment_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/x12/form.html.erb" afterPath="$PROJECT_DIR$/app/views/x12/form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/payment_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/payment_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/payment/status_get.html.erb" afterPath="$PROJECT_DIR$/app/views/payment/status_get.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/x12_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/x12_controller.rb" />
     </list>
     <ignored path="gem_test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -18,7 +11,7 @@
     <file path="/demographic_controller.rb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372347732002" ignored="false" />
     <file path="/index.html.erb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372178300997" ignored="false" />
     <file path="/Gemfile" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372346093095" ignored="false" />
-    <file path="/Dummy.txt" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372345949472" ignored="false" />
+    <file path="/Dummy.txt" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372391112037" ignored="false" />
     <file path="/application_controller.rb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372174736602" ignored="false" />
     <file path="/application.html.erb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372297086532" ignored="false" />
     <file path="/coverage_controller.rb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372179696119" ignored="false" />
@@ -45,7 +38,7 @@
     <file path="/claim_controller.rb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372296095490" ignored="false" />
     <file path="/payment_controller.rb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372346406288" ignored="false" />
     <file path="/status.html.erb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372346316533" ignored="false" />
-    <file path="/status_get.html.erb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372344039552" ignored="false" />
+    <file path="/status_get.html.erb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372392273764" ignored="false" />
     <file path="/x12_controller.rb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372348401193" ignored="false" />
     <file path="/post_result.html.erb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372348440909" ignored="false" />
     <file path="$PROJECT_DIR$/../eligible-ruby/lib/eligible/coverage.rb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372299057942" ignored="false" />
@@ -54,6 +47,7 @@
     <file path="/payment.rb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372344460784" ignored="false" />
     <file path="/demographic.rb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372346656553" ignored="false" />
     <file path="/x12.rb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372348095222" ignored="false" />
+    <file path="/dummy.xml" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372391481185" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +70,7 @@
       <file leaf-file-name="status.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/payment/status.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="27" selection-start="181" selection-end="181" vertical-scroll-proportion="-4.375">
+            <state line="7" column="27" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -85,7 +79,7 @@
       <file leaf-file-name="retrieve.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/enrollment/retrieve.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="3" selection-start="40" selection-end="40" vertical-scroll-proportion="-1.25">
+            <state line="2" column="3" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -127,10 +121,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post_result.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="post_result.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/x12/post_result.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
+            <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="payment_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/payment_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="status_get.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/payment/status_get.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="27" selection-start="482" selection-end="482" vertical-scroll-proportion="0.2863436">
               <folding />
             </state>
           </provider>
@@ -139,7 +151,7 @@
       <file leaf-file-name="form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/x12/form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="-0.0">
+            <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -163,7 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/payment/status.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/payment_controller.rb" />
@@ -179,6 +190,7 @@
         <option value="$PROJECT_DIR$/app/views/x12/form.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/x12_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/x12/post_result.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/payment/status_get.html.erb" />
       </list>
     </option>
   </component>
@@ -220,7 +232,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -274,18 +285,19 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="Ruby.ViewRefParam.DefaultExtension" value="html.erb" />
     <property name="dynamic.classpath" value="false" />
+    <property name="Ruby.ViewRefParam.DefaultExtension" value="html.erb" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -579,7 +591,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2784238" sideWeight="0.60106385" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28229973" sideWeight="0.60106385" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39893618" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -658,46 +670,24 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/coverage/all.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1368" column="49" selection-start="26287" selection-end="26287" vertical-scroll-proportion="0.7761194">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="17" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/demographic.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="190" selection-start="237" selection-end="237" vertical-scroll-proportion="-1.2">
-          <folding />
-        </state>
+        <state line="2" column="190" selection-start="237" selection-end="237" vertical-scroll-proportion="-1.2" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/enrollment/form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/payment.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="130" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="130" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/demographic/form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="50" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="50" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
@@ -709,14 +699,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/demographic_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="115" selection-end="115" vertical-scroll-proportion="0.12622721">
-          <folding />
-        </state>
+        <state line="6" column="0" selection-start="115" selection-end="115" vertical-scroll-proportion="0.12622721" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/payment/status.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="27" selection-start="181" selection-end="181" vertical-scroll-proportion="-4.375">
+        <state line="7" column="27" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -744,7 +732,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/enrollment/retrieve.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="3" selection-start="40" selection-end="40" vertical-scroll-proportion="-1.25">
+        <state line="2" column="3" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -766,6 +754,20 @@
     <entry file="file://$PROJECT_DIR$/app/views/x12/post_result.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/payment_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/payment/status_get.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="27" selection-start="482" selection-end="482" vertical-scroll-proportion="0.2863436">
           <folding />
         </state>
       </provider>
