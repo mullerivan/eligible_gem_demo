@@ -4,7 +4,9 @@ class EnrollmentController < ApplicationController
   end
 
   def post
+    strong_params = params.require(:enrollment).permit(:facility_name, :provider_name, :npi, :tax_id, :address, :city, :state, :zip, :ptan)
 
+    @enrrolment_post = Eligible::Enrollment.post(strong_params)
   end
 
   def retrieve

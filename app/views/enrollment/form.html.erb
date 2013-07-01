@@ -1,22 +1,15 @@
+<h1>Post Enrollment object</h1>
+<h3>service_provider_list </h3>
 
-<%= form_tag(enrollment_post_result_url, method: 'post') do %>
-
-    service_provider_list:     <%= label_tag('service_provider_list') %>
-    payer_ids:                 <%= label_tag('payer_ids') %>
-    facility_name:             <%= label_tag('facility_name') %>
-    provider_name:             <%= label_tag('provider_name') %>
-    NPI:                       <%= label_tag('NPI') %>
-    tax_id:                    <%= label_tag('tax_id') %>
-    address:                   <%= label_tag('address') %>
-    PTAN:                      <%= label_tag('PTAN') %>
-
-
-    <%= submit_tag('POST') %>
-
-
-
-
-
-
+<%= simple_form_for @enrollment, url: enrollment_post_url do |f| %>
+    <%= f.input :facility_name, :input_html => { :value => 'Quality' }  %>
+    <%= f.input :provider_name, :input_html => { :value => 'Jane Austen'} %>
+    <%= f.input :tax_id, :input_html => { :value => '12345678' }%>
+    <%= f.input :address, :input_html => { :value => '125 Snow Shoe Road' }%>
+    <%= f.input :city, :input_html => { :value => 'Sacramento'} %>
+    <%= f.input :zip, :input_html => { :value => '94107' }%>
+    <%= f.input :ptan, :input_html => { :value => '54321'} %>
+    <%= f.input :npi, :input_html => { :value => '987654321' }%>
+    <%= f.button :submit ,value: 'POST'%>
 
 <% end %>

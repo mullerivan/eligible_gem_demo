@@ -2,7 +2,7 @@ class ClaimController < ApplicationController
 
 
   def form
-
+    @claim = Claim.new
   end
 
   def post

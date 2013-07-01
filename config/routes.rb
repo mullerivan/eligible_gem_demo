@@ -3,7 +3,9 @@ GemTest::Application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-   root 'demographic#form'
+   root 'application#welcome'
+   post 'welcome/save' => 'application#welcome_save', as: :welcome_save
+
    get 'demographic' => 'demographic#form', as: :demographic_form
    post 'demographic/get' => 'demographic#get', as: :demographic_get
 
@@ -12,12 +14,12 @@ GemTest::Application.routes.draw do
    get 'payment/status' => 'payment#status', as: :payment_status
    post 'payment/status/get' => 'payment#status_get', as: :payment_status_get
 
-   get 'enrollment/post' => 'enrollment#post', as: :enrollment_post
-   post 'enrollment/post/result' => 'enrollment#post_result', as: :enrollment_post_result
+   get 'enrollment/post' => 'enrollment#form', as: :enrollment_form
+   post 'enrollment/post/result' => 'enrollment#post', as: :enrollment_post
    get 'enrollment/retrieve' => 'enrollment#retrieve', as: :enrollment_retrieve
    post 'enrollment/retrieve_get' => 'enrollment#retrieve_get', as: :enrollment_retrieve_get
 
-   get 'claim/post' => 'claim#post', as: :claim_post
+   get 'claim/post' => 'claim#form', as: :claim_post
    post 'claim/post/result' => 'claim#post_result', as: :claim_post_result
    get 'claim/retrieve' => 'claim#retrieve', as: :claim_retrieve
    post 'claim/retrieve_get' => 'claim#retrieve_get', as: :claim_retrieve_get

@@ -1,0 +1,19 @@
+Welcome!
+Provider Settings
+
+<%= form_tag(welcome_save_url) do %>
+
+    <%= label_tag(:api_key, 'api_key:') %>
+    <%= text_field_tag(:api_key, session[:api_key]) %>
+
+    <%= label_tag(:first_name, 'first name:') %>
+    <%= text_field_tag(:first_name, session[:first_name]) %>
+
+    <%= label_tag(:last_name, 'last name:') %>
+    <%= text_field_tag(:last_name, session[:last_name]) %>
+
+    <%= label_tag(:test, 'Use TEST parameter:') %>
+    <%= check_box_tag :test, 'yes', true  %>
+<br>
+    <%= submit_tag('Save') %>
+<% end %>
