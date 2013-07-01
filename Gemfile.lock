@@ -1,5 +1,6 @@
-PATH
-  remote: /home/ivan/eligible/eligible-ruby
+GIT
+  remote: git://github.com/EligibleAPI/eligible-ruby.git
+  revision: f14a1855942d27c8a904acf8fbd5b08ddc42e645
   specs:
     eligible (2.2)
       multi_json (>= 1.0.4, < 2)

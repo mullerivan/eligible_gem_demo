@@ -7,7 +7,8 @@ gem 'rails', '4.0.0.rc1'
 #gem 'mysql2'
 gem 'sqlite3'
 
-gem 'eligible',     :path => "/home/ivan/eligible/eligible-ruby"
+#gem 'eligible',     :path => "/home/ivan/eligible/eligible-ruby"
+gem 'eligible', github: 'EligibleAPI/eligible-ruby'       # Admin
 
 gem 'therubyracer'
 gem 'less-rails' #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
