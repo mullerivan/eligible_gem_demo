@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0d065f4-47a3-4426-b2ca-163402ea8143" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/claim/form.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/claim/post.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/application/welcome.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/claim_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/claim_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/enrollment.rb" afterPath="$PROJECT_DIR$/app/models/enrollment.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/enrollment_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/enrollment_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/demographic/form.html.erb" afterPath="$PROJECT_DIR$/app/views/demographic/form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/enrollment/form.html.erb" afterPath="$PROJECT_DIR$/app/views/enrollment/form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gem_test.iml" afterPath="$PROJECT_DIR$/.idea/gem_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/enrollment/post.html.erb" afterPath="$PROJECT_DIR$/app/views/enrollment/post.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="b0d065f4-47a3-4426-b2ca-163402ea8143" name="Default" comment="" />
     <ignored path="gem_test.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/routes.rb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372642743564" ignored="false" />
