@@ -1,1 +1,40 @@
-<%= raise @enrrolment_post.to_yaml %>
+<% autoincrement= 0 %>
+<div class="tabbable tabs-left">
+  <ul class="nav nav-tabs">
+    <% active = 'active' %>
+    <% @enrrolment_post.values[0][:enrollment_npis].each do |enrollment_npi| %>
+        <li class="<%= active %>">
+          <a href="#<%= "#{enrollment_npi[:enrollment_insurance_company][:payer_id]}_#{autoincrement}" %>" data-toggle="tab"><%= enrollment_npi[:enrollment_insurance_company][:payer_id] %></a>
+          <% autoincrement+=1 %>
+        </li>
+        <% active = '' %>
+    <% end %>
+  </ul>
+
+  <div class="tab-content">
+    <% autoincrement= 0 %>
+    <% active = 'active' %>
+    <% @enrrolment_post.values[0][:enrollment_npis].each do |enrollment_npi| %>
+
+        <div class="tab-pane <%= active %>" id="<%= "#{enrollment_npi[:enrollment_insurance_company][:payer_id]}_#{autoincrement}" %>">
+          <% active = '' %>
+          address:<%= enrollment_npi[:address] %>               <br/>
+          city:<%= enrollment_npi[:city] %>                     <br/>
+          created_at:<%= enrollment_npi[:created_at] %>         <br/>
+          facility_name:<%= enrollment_npi[:facility_name] %>   <br/>
+          npi:<%= enrollment_npi[:npi] %>                       <br/>
+          provider_name: <%= enrollment_npi[:provider_name] %>  <br/>
+          ptan:<%= enrollment_npi[:ptan] %>              <br/>
+          state:<%= enrollment_npi[:state] %>            <br/>
+          status:<%= enrollment_npi[:status] %>          <br/>
+          tax_id:<%= enrollment_npi[:tax_id] %>          <br/>
+          updated_at:<%= enrollment_npi[:updated_at] %>  <br/>
+          zip:<%= enrollment_npi[:zip] %>                <br/>
+          <% enrollment_npi[:enrollment_insurance_company].each do |key, enrollment_insurance_company| %>
+              <%= "#{key}: #{enrollment_insurance_company }" %>   <br/>
+          <% end %>
+        </div>
+        <% autoincrement+=1 %>
+    <% end %>
+  </div>
+</div>

@@ -1,15 +1,15 @@
 <h1>Post Enrollment object</h1>
 <h3>service_provider_list </h3>
 
-<%= simple_form_for @enrollment, url: enrollment_post_url do |f| %>
-    <%= f.input :facility_name, :input_html => { :value => 'Quality' }  %>
-    <%= f.input :provider_name, :input_html => { :value => 'Jane Austen'} %>
-    <%= f.input :tax_id, :input_html => { :value => '12345678' }%>
-    <%= f.input :address, :input_html => { :value => '125 Snow Shoe Road' }%>
-    <%= f.input :city, :input_html => { :value => 'Sacramento'} %>
-    <%= f.input :zip, :input_html => { :value => '94107' }%>
-    <%= f.input :ptan, :input_html => { :value => '54321'} %>
-    <%= f.input :npi, :input_html => { :value => '987654321' }%>
+<%= simple_nested_form_for @enrollment, url: enrollment_post_url do |f| %>
+
+    <%= f. simple_fields_for :service_provider do |builder| %>
+        <%= render 'service_provider', :f => builder %>
+    <% end %>
+    <p><%= f.link_to_add 'Add service provider', :service_provider, :class => 'btn btn-success' %></p>
+
+
+
     <%= f.button :submit ,value: 'POST'%>
 
 <% end %>

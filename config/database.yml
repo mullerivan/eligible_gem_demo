@@ -1,5 +1,5 @@
 development:
-  adapter: postgresql
+  adapter: mysql2
   host: localhost
   database: gem_test
   pool: 20
@@ -7,7 +7,7 @@ development:
   password: im
 
 test:
-  adapter: postgresql
+  adapter: mysql2
   host: localhost
   database: gem_test_test
   pool: 20
@@ -15,7 +15,7 @@ test:
   password: im
 
 production:
-  adapter: postgresql
+  adapter: mysql2
   host: localhost
   database: gem_test
   pool: 20

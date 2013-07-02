@@ -16,12 +16,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="actionmailer (v4.0.0.rc1, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="actionpack (v4.0.0.rc1, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="activemodel (v4.0.0.rc1, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="activerecord (v4.0.0.rc1, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activerecord-deprecated_finders (v1.0.3, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="activesupport (v4.0.0.rc1, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="arel (v4.0.0, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="atomic (v1.1.10, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.1.4, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
@@ -30,7 +25,6 @@
     <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.2.0, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.6.2, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="commonjs (v0.2.6, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="eligible (v2.2, /home/ivan/eligible/eligible-ruby) [path][gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v1.4.0, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.3, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
@@ -49,8 +43,6 @@
     <orderEntry type="library" scope="PROVIDED" name="polyglot (v0.3.3, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v1.5.2, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-test (v0.6.2, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rails (v4.0.0.rc1, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="railties (v4.0.0.rc1, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rake (v10.1.0, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rdoc (v3.12.2, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ref (v1.0.5, RVM: ruby-2.0.0-p195 [global]) [gem]" level="application" />

@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0.rc1'
+gem 'rails', '4.0.0'
 
 # Use sqlite3 as the database for Active Record
-#gem 'mysql2'
+gem 'mysql2'
 #gem 'sqlite3'
-gem 'pg'
+#gem 'pg'
 #gem 'eligible',     :path => "/home/ivan/eligible/eligible-ruby"
 gem 'eligible', github: 'EligibleAPI/eligible-ruby'       # Admin
 
@@ -14,6 +14,7 @@ gem 'therubyracer'
 gem 'less-rails' #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
 gem 'twitter-bootstrap-rails'
 gem 'simple_form'
+gem 'nested_form'
 #github: 'EligibleAPI/eligible-ruby' # Exception notification
 
 # Use SCSS for stylesheets

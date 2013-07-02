@@ -11,6 +11,25 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20130701215351) do
+
+  create_table "enrollments", force: true do |t|
+    t.string "name", limit: 100
+  end
+
+  create_table "service_providers", force: true do |t|
+    t.integer "enrollment_id"
+    t.string  "name",          limit: 200
+    t.string  "facility_name", limit: 200
+    t.string  "provider_name", limit: 200
+    t.string  "npi",           limit: 200
+    t.string  "tax_id",        limit: 200
+    t.string  "address",       limit: 200
+    t.string  "city",          limit: 200
+    t.string  "state",         limit: 200
+    t.string  "zip",           limit: 200
+    t.string  "ptan",          limit: 200
+    t.string  "payer_id",      limit: 200
+  end
 
 end
