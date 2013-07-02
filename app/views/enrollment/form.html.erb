@@ -2,14 +2,9 @@
 <h3>service_provider_list </h3>
 
 <%= simple_nested_form_for @enrollment, url: enrollment_post_url do |f| %>
-
     <%= f. simple_fields_for :service_provider do |builder| %>
         <%= render 'service_provider', :f => builder %>
     <% end %>
     <p><%= f.link_to_add 'Add service provider', :service_provider, :class => 'btn btn-success' %></p>
-
-
-
     <%= f.button :submit ,value: 'POST'%>
-
 <% end %>

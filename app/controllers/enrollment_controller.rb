@@ -6,13 +6,12 @@ class EnrollmentController < ApplicationController
   end
 
   def post
-    a=params[:enrollment].to_a
-    b=a[0].to_a
-    a = b[1].to_a
+    strong_params = params.require(:enrollment).permit(service_provider_attributes: [:facility_name, :provider_name, :npi,:tax_id,:address, :city, :state, :zip, :ptan, :payer_id])
+
     service_provider_list = Array.new
     payer_ids = Array.new
-    a.each do |s|
-      service_provider = s[1]
+    strong_params.first.last.each do |service_provider_hash|
+      service_provider = service_provider_hash[1]
       service_provider_each = {
           'facility_name' => service_provider[:facility_name],
           'provider_name' => service_provider[:provider_name],

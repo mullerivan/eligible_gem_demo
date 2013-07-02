@@ -30,9 +30,11 @@
           tax_id:<%= enrollment_npi[:tax_id] %>          <br/>
           updated_at:<%= enrollment_npi[:updated_at] %>  <br/>
           zip:<%= enrollment_npi[:zip] %>                <br/>
-          <% enrollment_npi[:enrollment_insurance_company].each do |key, enrollment_insurance_company| %>
-              <%= "#{key}: #{enrollment_insurance_company }" %>   <br/>
-          <% end %>
+          <div class="well">
+              <% enrollment_npi[:enrollment_insurance_company].each do |key, enrollment_insurance_company| %>
+                  <%= "#{key}: #{enrollment_insurance_company }" %>   <br/>
+              <% end %>
+          </div>
         </div>
         <% autoincrement+=1 %>
     <% end %>
