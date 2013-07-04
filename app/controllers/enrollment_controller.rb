@@ -1,4 +1,6 @@
 class EnrollmentController < ApplicationController
+  add_flash_types :error
+  rescue_from Eligible::InvalidRequestError  , with: :invalid_parameters
   def form
     @enrollment = Enrollment.new
     @enrollment.service_provider.build
@@ -7,7 +9,6 @@ class EnrollmentController < ApplicationController
 
   def post
     strong_params = params.require(:enrollment).permit(service_provider_attributes: [:facility_name, :provider_name, :npi,:tax_id,:address, :city, :state, :zip, :ptan, :payer_id])
-
     service_provider_list = Array.new
     payer_ids = Array.new
     strong_params.first.last.each do |service_provider_hash|
@@ -41,4 +42,8 @@ class EnrollmentController < ApplicationController
     strong_params = params.require(:enrollment).permit(:enrollment_request_id)
     @enrollment = Eligible::Enrollment.get(strong_params)
   end
+  protected
+    def invalid_parameters(exception)
+      redirect_to :back, error: exception.message
+    end
 end

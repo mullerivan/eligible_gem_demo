@@ -13,7 +13,7 @@ Provider Settings
     <%= text_field_tag(:last_name, session[:last_name]) %>
 
     <%= label_tag(:test, 'Use TEST parameter:') %>
-    <%= check_box_tag :test, 'yes', true  %>
+    <%= check_box_tag :test, 'yes', session[:test]%>
 <br>
     <%= submit_tag('Save') %>
 <% end %>

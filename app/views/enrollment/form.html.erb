@@ -1,6 +1,5 @@
 <h1>Post Enrollment object</h1>
 <h3>service_provider_list </h3>
-
 <%= simple_nested_form_for @enrollment, url: enrollment_post_url do |f| %>
     <%= f. simple_fields_for :service_provider do |builder| %>
         <%= render 'service_provider', :f => builder %>
