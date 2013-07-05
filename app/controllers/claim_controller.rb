@@ -3,6 +3,7 @@ class ClaimController < ApplicationController
 
   def form
     @claim = Claim.new
+    redirect_to :back, error: 'TO DO....'
   end
 
   def post
