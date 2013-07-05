@@ -39,24 +39,31 @@
             <% end %>
           </div> <!--END DIV tab-content-->
         </div> <!--END DIV tabbable tabs-left-->
-    <% end %> <!--END IF =='demographics'-->
+    <% elsif demographic_key.to_s =='error' %> <!--END IF =='demographics'-->
+        <h2>  <%= demographic_key %>:</h2>
+
+
+
+        <div class="tabbable tabs-left">
+          <ul class="nav nav-tabs">
+            <% active = 'active' %>
+            <%  demographic_value.each do |error_key ,error_value|%>
+                <li class="<%= active %>">
+                  <% active = '' %>
+                  <a href="#<%= error_key %>" data-toggle="tab"><%= error_key  %></a>
+                </li>
+            <% end %>
+          </ul>
+          <div class="tab-content">
+
+            <% active = 'active' %>
+            <%  demographic_value.each do |error_key ,error_value|%>
+                <div class="tab-pane <%= active %>" id="<%= error_key %>">
+                  <% active = '' %>
+                  <p><%= error_key %>: <%= error_value %></p>
+                </div>
+            <%end %>
+            </div>
+    <%  end %> <!--END IF =='error'-->
+
 <% end %>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

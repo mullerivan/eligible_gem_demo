@@ -1,5 +1,4 @@
 class PaymentController < ApplicationController
-  add_flash_types :error
   rescue_from Eligible::APIError   , with: :api_error
   def status
     @payment = Payment.new()

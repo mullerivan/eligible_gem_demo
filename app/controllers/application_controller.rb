@@ -1,7 +1,10 @@
 class ApplicationController < ActionController::Base
   # Prevent CSRF attacks by raising an exception.
   # For APIs, you may want to use :null_session instead.
+  add_flash_types :error
   protect_from_forgery with: :exception
+  rescue_from Eligible::AuthenticationError  , with: :invalid_authentication
+
   before_action do
     unless session[:api_key].nil?
       Eligible.api_key = session[:api_key]
@@ -23,6 +26,10 @@ class ApplicationController < ActionController::Base
     flash[:message] = 'Data was saved successfully'
     redirect_to demographic_form_url
 
+  end
+  protected
+  def invalid_authentication
+    redirect_to :back, error: exception.message
   end
 end
 

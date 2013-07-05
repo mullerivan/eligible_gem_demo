@@ -1,10 +1,10 @@
 class EnrollmentController < ApplicationController
   add_flash_types :error
   rescue_from Eligible::InvalidRequestError  , with: :invalid_parameters
+  rescue_from Eligible::APIError   , with: :api_error
   def form
     @enrollment = Enrollment.new
     @enrollment.service_provider.build
-
   end
 
   def post
@@ -41,9 +41,14 @@ class EnrollmentController < ApplicationController
   def retrieve_get
     strong_params = params.require(:enrollment).permit(:enrollment_request_id)
     @enrollment = Eligible::Enrollment.get(strong_params)
+
   end
+
   protected
-    def invalid_parameters(exception)
-      redirect_to :back, error: exception.message
-    end
+  def invalid_parameters(exception)
+    redirect_to :back, error: exception.message
+  end
+  def api_error(exception)
+    redirect_to :back, error: exception.message
+  end
 end
