@@ -1,31 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less" line="48" mnemonic="7" />
+    <bookmark url="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less" line="43" mnemonic="7" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0d065f4-47a3-4426-b2ca-163402ea8143" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/font/proxima_nova_bold-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/font/proxima_nova_bold-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/font/proxima_nova_bold-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/font/proxima_nova_sbold-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/font/proxima_nova_sbold-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/font/proxima_nova_sbold-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/font/proxima_nova_bold-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/font/proxima_nova_sbold-webfont.svg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/demographic/index.html.erb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/coverage/all.html.erb" afterPath="$PROJECT_DIR$/app/views/coverage/all.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="$PROJECT_DIR$/public/favicon.ico" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/demographic_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/demographic_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/demographic/form.html.erb" afterPath="$PROJECT_DIR$/app/views/demographic/form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/enrollment/form.html.erb" afterPath="$PROJECT_DIR$/app/views/enrollment/form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/x12/form.html.erb" afterPath="$PROJECT_DIR$/app/views/x12/form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/claim/retrieve.html.erb" afterPath="$PROJECT_DIR$/app/views/claim/retrieve.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/enrollment/retrieve.html.erb" afterPath="$PROJECT_DIR$/app/views/enrollment/retrieve.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/payment/status.html.erb" afterPath="$PROJECT_DIR$/app/views/payment/status.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/application/welcome.erb" afterPath="$PROJECT_DIR$/app/views/application/welcome.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gem_test.iws" />
@@ -36,7 +18,7 @@
     <file path="/Gemfile" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372714224969" ignored="false" />
     <file path="/Dummy.txt" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372991603829" ignored="false" />
     <file path="/application_controller.rb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372985719190" ignored="false" />
-    <file path="/application.html.erb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372992943784" ignored="false" />
+    <file path="/application.html.erb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1373000278614" ignored="false" />
     <file path="/coverage_controller.rb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372179696119" ignored="false" />
     <file path="/all.html.erb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372991283833" ignored="false" />
     <file path="/enrollment_controller.rb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372988364253" ignored="false" />
@@ -82,7 +64,7 @@
     <file path="$PROJECT_DIR$/../eligibleapi/config/environments/staging.rb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372984670709" ignored="false" />
     <file path="$PROJECT_DIR$/../eligibleapi/config/environments/production.rb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372984718432" ignored="false" />
     <file path="/production.rb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372984713008" ignored="false" />
-    <file path="/bootstrap_and_overrides.css.less" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372997474849" ignored="false" />
+    <file path="/bootstrap_and_overrides.css.less" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1373000445147" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,82 +93,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap_and_overrides.css.less" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="bootstrap_and_overrides.css.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="76" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="get.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/demographic/get.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="status.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/payment/status.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="44" selection-start="44" selection-end="44" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/enrollment/form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="4" selection-start="52" selection-end="52" vertical-scroll-proportion="-0.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="retrieve.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/enrollment/retrieve.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="46" selection-start="46" selection-end="46" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="retrieve.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/claim/retrieve.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="68" selection-start="68" selection-end="68" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/x12/form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/demographic/form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="33" selection-start="34" selection-end="34" vertical-scroll-proportion="-0.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="118" selection-start="2307" selection-end="2307" vertical-scroll-proportion="-16.25">
+            <state line="61" column="6" selection-start="1773" selection-end="1773" vertical-scroll-proportion="0.78602">
               <folding />
             </state>
           </provider>
@@ -218,14 +128,14 @@
         <option value="$PROJECT_DIR$/app/views/application/welcome.erb" />
         <option value="$PROJECT_DIR$/app/views/coverage/all.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less" />
         <option value="$PROJECT_DIR$/app/views/demographic/form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/payment/status.html.erb" />
         <option value="$PROJECT_DIR$/app/views/enrollment/form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/enrollment/retrieve.html.erb" />
         <option value="$PROJECT_DIR$/app/views/claim/retrieve.html.erb" />
         <option value="$PROJECT_DIR$/app/views/x12/form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less" />
       </list>
     </option>
   </component>
@@ -296,15 +206,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="x12" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -358,6 +260,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/app/assets/common" />
       <recent name="$PROJECT_DIR$/app/assets/font" />
       <recent name="$PROJECT_DIR$/app/models" />
@@ -676,7 +579,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31653747" sideWeight="0.60106385" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31653747" sideWeight="0.60106385" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39893618" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29586563" sideWeight="0.28590426" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -804,51 +707,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="118" selection-start="2307" selection-end="2307" vertical-scroll-proportion="-16.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="76" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/demographic/get.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/demographic/form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="33" selection-start="34" selection-end="34" vertical-scroll-proportion="-0.625">
+        <state line="1" column="33" selection-start="34" selection-end="34" vertical-scroll-proportion="0.02202643">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/payment/status.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/x12/form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="44" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/enrollment/form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="4" selection-start="52" selection-end="52" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/enrollment/retrieve.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="46" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
+        <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -860,9 +728,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/x12/form.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/enrollment/retrieve.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
+        <state line="0" column="46" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/enrollment/form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="4" selection-start="52" selection-end="52" vertical-scroll-proportion="0.02202643">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/payment/status.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="44" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/demographic/get.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="6" selection-start="1773" selection-end="1773" vertical-scroll-proportion="0.78602">
           <folding />
         </state>
       </provider>
