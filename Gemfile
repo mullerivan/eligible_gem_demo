@@ -4,9 +4,9 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0'
 
 # Use sqlite3 as the database for Active Record
-gem 'mysql2'
+#gem 'mysql2'
 #gem 'sqlite3'
-#gem 'pg'
+gem 'pg'
 #gem 'eligible',     :path => "/home/ivan/eligible/eligible-ruby"
 gem 'eligible', github: 'EligibleAPI/eligible-ruby'       # Admin
 
