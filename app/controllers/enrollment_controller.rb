@@ -1,7 +1,6 @@
 class EnrollmentController < ApplicationController
   add_flash_types :error
   rescue_from Eligible::InvalidRequestError  , with: :invalid_parameters
-  rescue_from Eligible::APIError   , with: :api_error
   def form
     @enrollment = Enrollment.new
     @enrollment.service_provider.build
@@ -42,13 +41,14 @@ class EnrollmentController < ApplicationController
     strong_params = params.require(:enrollment).permit(:enrollment_request_id)
     @enrollment = Eligible::Enrollment.get(strong_params)
 
-  end
+    if @enrollment.nil?
+      redirect_to :back, error: 'Invalid response object from API: "Enrollment not found. Please send a valid reference_id." (HTTP response code was 404)'
+    end
+
+      end
 
   protected
   def invalid_parameters(exception)
-    redirect_to :back, error: exception.message
-  end
-  def api_error(exception)
     redirect_to :back, error: exception.message
   end
 end
