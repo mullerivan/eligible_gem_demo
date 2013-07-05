@@ -1,7 +1,5 @@
-<h1>Retrieve Payment status </h1>
-
+<h1>Payment <small> Retrieve status </small></h1>
 <%= simple_form_for @payment, url: payment_status_get_url do |f| %>
     <%= f.input :payment_request_id %>
-
-    <%= f.button :submit %>
+    <%= f.button :submit,'Get',class: 'btn large bolder' %>
 <% end %>

@@ -1,7 +1,7 @@
-<h1>X12 post</h1>
+<h1>X12 <small>post</small> </h1>
 <%= simple_form_for @x12, url: x12_post_result_url do |f| %>
     <%= f.input :x12_post,  as: 'text' %>
 
-    <%= f.button :submit %>
+    <%= f.button :submit , 'POST' ,class: 'btn large bolder' %>
 <% end %>
 

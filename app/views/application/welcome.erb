@@ -1,6 +1,6 @@
-Welcome!
-Provider Settings
 
+
+  <h1>Welcome<small>Provider Settings </small></h1>
 <%= form_tag(welcome_save_url) do %>
 
     <%= label_tag(:api_key, 'api_key:') %>
@@ -15,5 +15,5 @@ Provider Settings
     <%= label_tag(:test, 'Use TEST parameter:') %>
     <%= check_box_tag :test, 'yes', session[:test]%>
 <br>
-    <%= submit_tag('Save') %>
+    <%= submit_tag('Save',class: 'btn large bolder') %>
 <% end %>

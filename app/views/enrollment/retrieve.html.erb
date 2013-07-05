@@ -1,8 +1,8 @@
-<h1>Retrieve Enrollment object</h1>
+<h1>Enrollment <small>Retrieve object</small> </h1>
 
 <%= simple_form_for @enrollment, url: enrollment_retrieve_get_url do |f| %>
     <%= f.input :enrollment_request_id %>
 
-    <%= f.button :submit %>
+    <%= f.button :submit , 'Get' ,class: 'btn large bolder'%>
 <% end %>
 

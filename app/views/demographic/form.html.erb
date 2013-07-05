@@ -1,4 +1,5 @@
-<h1> Retrieve Demographic object and query it</h1>
+
+<h1> Demographic <small>Retrieve object and query it</small> </h1>
 <%= simple_form_for @demographic, url: demographic_get_url do |f| %>
     <%= f.input :payer_name %>
     <%= f.input :payer_id %>
@@ -11,7 +12,7 @@
     <%= f.input :member_dob %>
     <%= f.input :member_gender %>
     <%= f.input :internal_id %>
-    <%= f.button :submit %>
+    <%= f.button :submit, 'Get',class: 'btn large bolder'%>
 <% end %>
 
 
