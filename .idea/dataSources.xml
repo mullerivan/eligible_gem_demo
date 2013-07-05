@@ -1,55 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="3359149805">
-    <data-source source="LOCAL" name="Rails gem_test: production" product="MySQL" version="5.5.31-0ubuntu0.13.04.1" jdbc-version="4.0" driver-name="MySQL-AB JDBC Driver" driver-version="mysql-connector-java-5.1.22 ( Revision: ${bzr.revision-id} )" uuid="551f0778-5bdc-47cf-bc12-f3483cec25de">
-      <extra-name-characters>#@</extra-name-characters>
-      <identifier-quote-string>`</identifier-quote-string>
-      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://127.0.0.1/gem_test</jdbc-url>
+  <component name="DataSourceManagerImpl" format="xml" hash="3547247477">
+    <data-source source="LOCAL" name="Rails gem_test: production" product="PostgreSQL" version="9.1.9" jdbc-version="3.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.1 JDBC3 (build 901)" uuid="9711169b-f270-41d6-8b55-9045ba383165">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/gem_test</jdbc-url>
       <user-name>root</user-name>
       <user-password>dfc3dfc7</user-password>
       <libraries>
         <library>
-          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-license.txt</url>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-driver-license.txt</url>
         </library>
         <library>
-          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-java-5.1.22-bin.jar</url>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-9.1-901.jdbc3.jar</url>
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="Rails gem_test: test" product="MySQL" version="5.5.31-0ubuntu0.13.04.1" jdbc-version="4.0" driver-name="MySQL-AB JDBC Driver" driver-version="mysql-connector-java-5.1.22 ( Revision: ${bzr.revision-id} )" uuid="4c0667f5-dd7d-4e68-902e-ab967d2d799f">
-      <extra-name-characters>#@</extra-name-characters>
-      <identifier-quote-string>`</identifier-quote-string>
-      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://127.0.0.1/gem_test_test</jdbc-url>
-      <user-name>root</user-name>
-      <user-password>dfc3dfc7</user-password>
-      <libraries>
-        <library>
-          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-license.txt</url>
-        </library>
-        <library>
-          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-java-5.1.22-bin.jar</url>
-        </library>
-      </libraries>
-    </data-source>
-    <data-source source="LOCAL" name="Rails gem_test: development" product="MySQL" version="5.5.31-0ubuntu0.13.04.1" jdbc-version="4.0" driver-name="MySQL-AB JDBC Driver" driver-version="mysql-connector-java-5.1.22 ( Revision: ${bzr.revision-id} )" uuid="86a0b019-3450-4379-aee2-efa06078b3bd">
-      <extra-name-characters>#@</extra-name-characters>
-      <identifier-quote-string>`</identifier-quote-string>
-      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://127.0.0.1/gem_test</jdbc-url>
-      <user-name>root</user-name>
-      <user-password>dfc3dfc7</user-password>
-      <libraries>
-        <library>
-          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-license.txt</url>
-        </library>
-        <library>
-          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/mysql-connector-java-5.1.22-bin.jar</url>
-        </library>
-      </libraries>
-    </data-source>
-    <data-source source="LOCAL" name="Rails gem_test: test" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="8561f33f-e231-458e-b0db-1761a732552a">
+    <data-source source="LOCAL" name="Rails gem_test: test" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="9bf97712-cd91-4a28-bc44-3f40274736bb">
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://127.0.0.1/gem_test_test</jdbc-url>
       <user-name>root</user-name>
@@ -59,11 +26,12 @@
           <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-driver-license.txt</url>
         </library>
         <library>
-          <url>jar://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-9.1-901.jdbc3.jar!/</url>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-9.1-901.jdbc3.jar</url>
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="Rails gem_test: development" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="cefd6378-9715-4c30-a958-19d00c678ad8">
+    <data-source source="LOCAL" name="Rails gem_test: development" product="PostgreSQL" version="9.1.9" jdbc-version="3.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.1 JDBC3 (build 901)" uuid="325fb59a-ead0-44de-897a-1e2ec2853a00">
+      <identifier-quote-string>&quot;</identifier-quote-string>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://127.0.0.1/gem_test</jdbc-url>
       <user-name>root</user-name>
@@ -73,21 +41,7 @@
           <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-driver-license.txt</url>
         </library>
         <library>
-          <url>jar://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-9.1-901.jdbc3.jar!/</url>
-        </library>
-      </libraries>
-    </data-source>
-    <data-source source="LOCAL" name="Rails gem_test: production" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="cef21470-bf96-4efe-a190-b0cfe335f72b">
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://127.0.0.1/gem_test</jdbc-url>
-      <user-name>root</user-name>
-      <user-password>dfc3dfc7</user-password>
-      <libraries>
-        <library>
-          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-driver-license.txt</url>
-        </library>
-        <library>
-          <url>jar://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-9.1-901.jdbc3.jar!/</url>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-9.1-901.jdbc3.jar</url>
         </library>
       </libraries>
     </data-source>
