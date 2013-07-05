@@ -18,6 +18,7 @@ class ApplicationController < ActionController::Base
   end
 
   def welcome_save
+
     session[:api_key]    = params[:api_key]
     session[:test]       = params[:test]
     session[:first_name] = params[:first_name]

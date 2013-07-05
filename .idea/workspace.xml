@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0d065f4-47a3-4426-b2ca-163402ea8143" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/claim_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/claim_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/bootstrap.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/bootstrap.js.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/application/welcome.erb" afterPath="$PROJECT_DIR$/app/views/application/welcome.erb" />
     </list>
     <ignored path="gem_test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -14,7 +18,7 @@
     <file path="/index.html.erb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372178300997" ignored="false" />
     <file path="/Gemfile" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372714224969" ignored="false" />
     <file path="/Dummy.txt" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372991603829" ignored="false" />
-    <file path="/application_controller.rb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372985719190" ignored="false" />
+    <file path="/application_controller.rb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1373007191455" ignored="false" />
     <file path="/application.html.erb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1373003175307" ignored="false" />
     <file path="/coverage_controller.rb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372179696119" ignored="false" />
     <file path="/all.html.erb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372991283833" ignored="false" />
@@ -54,7 +58,7 @@
     <file path="/retrieve_get.html.erb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372988163416" ignored="false" />
     <file path="$PROJECT_DIR$/../eligible-ruby/lib/eligible/claim.rb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372393897413" ignored="false" />
     <file path="$PROJECT_DIR$/../eligible-ruby/lib/eligible/demographic.rb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372633994619" ignored="false" />
-    <file path="/welcome.erb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372989903914" ignored="false" />
+    <file path="/welcome.erb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1373007773294" ignored="false" />
     <file path="/service_provider.rb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372714643962" ignored="false" />
     <file path="/_service_provider.html.erb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372719337145" ignored="false" />
     <file path="/20130701215141_create_enrollment.rb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372715835369" ignored="false" />
@@ -62,6 +66,10 @@
     <file path="$PROJECT_DIR$/../eligibleapi/config/environments/production.rb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372984718432" ignored="false" />
     <file path="/production.rb" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1372984713008" ignored="false" />
     <file path="/bootstrap_and_overrides.css.less" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1373000445147" ignored="false" />
+    <file path="/a.dummy" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1373004656242" ignored="false" />
+    <file path="$PROJECT_DIR$/../eligibleapi/app/assets/javascripts/scurb.js.coffee" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1373004702651" ignored="false" />
+    <file path="/scurb.js.coffee" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1373004685591" ignored="false" />
+    <file path="/bootstrap.js.coffee" changelist="b0d065f4-47a3-4426-b2ca-163402ea8143" time="1373007125832" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,16 +92,34 @@
       <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="36" selection-start="576" selection-end="595" vertical-scroll-proportion="0.0">
+            <state line="124" column="0" selection-start="3578" selection-end="3578" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="claim_controller.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/claim_controller.rb">
+      <file leaf-file-name="welcome.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/application/welcome.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="41" selection-start="176" selection-end="176" vertical-scroll-proportion="0.10330579">
+            <state line="14" column="37" selection-start="446" selection-end="446" vertical-scroll-proportion="0.2991453">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.js.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/bootstrap.js.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="30" selection-start="279" selection-end="284" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="4" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -117,22 +143,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/enrollment/retrieve_get.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/enrollment_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/demographic_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/application/welcome.erb" />
         <option value="$PROJECT_DIR$/app/views/coverage/all.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/views/demographic/form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/payment/status.html.erb" />
         <option value="$PROJECT_DIR$/app/views/enrollment/form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/enrollment/retrieve.html.erb" />
         <option value="$PROJECT_DIR$/app/views/claim/retrieve.html.erb" />
         <option value="$PROJECT_DIR$/app/views/x12/form.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/claim_controller.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/bootstrap.js.coffee" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/application/welcome.erb" />
       </list>
     </option>
   </component>
@@ -229,7 +255,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
+              <option name="myItemId" value="application" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -262,6 +288,68 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gem_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gem_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gem_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gem_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gem_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gem_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -681,27 +769,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/demographic.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/enrollment.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="442" selection-end="471" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/demographic/form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="33" selection-start="34" selection-end="34" vertical-scroll-proportion="0.02202643">
@@ -774,21 +841,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="9" selection-start="1839" selection-end="1839" vertical-scroll-proportion="0.850214">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="36" selection-start="576" selection-end="595" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="154" column="0" selection-start="6627" selection-end="6627" vertical-scroll-proportion="0.97615707">
+          <folding>
+            <element signature="e#2772#3687#2" expanded="true" />
+            <element signature="e#4726#5557#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/claim_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="41" selection-start="176" selection-end="176" vertical-scroll-proportion="0.10330579">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="124" column="0" selection-start="3578" selection-end="3578" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/bootstrap.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="30" selection-start="279" selection-end="284" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="4" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/application/welcome.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="37" selection-start="446" selection-end="446" vertical-scroll-proportion="0.2991453">
           <folding />
         </state>
       </provider>

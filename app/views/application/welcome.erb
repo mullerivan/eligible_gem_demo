@@ -12,8 +12,23 @@
     <%= label_tag(:last_name, 'last name:') %>
     <%= text_field_tag(:last_name, session[:last_name]) %>
 
-    <%= label_tag(:test, 'Use TEST parameter:') %>
-    <%= check_box_tag :test, 'yes', session[:test]%>
+      <%= label_tag(:test, 'Test Mode:') %>
+
+
+      <div class="control-group">
+        <div id="callback-toggle-button" class="toggle-button"  title="for sandbox data">
+          <div class="toggle-area <%= session[:test] =='true'?  'on':'off' %>">
+            <%= check_box_tag :test, 'false', true, class: 'checkbox',value: session[:test] %>
+            <span class="labelLeft btn">ON</span>
+
+            <span class="labelRight" >OFF </span>
+          </div>
+        </div>
+      </div>
+
+
+
+
 <br>
     <%= submit_tag('Save',class: 'btn large bolder') %>
 <% end %>
